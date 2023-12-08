@@ -50,7 +50,7 @@ const HumePrinciples = () => {
               Perspectivism is Nietzsche's view that all knowledge and truth are contingent and
               conditional, interpreted from specific perspectives. This philosophy rejects the idea
               of objective truth, suggesting that what we understand as truth is merely an
-              interpretation shaped by various cultural, historical, and individual factors.
+              interpretation shaped by various cultural, historical, and individual factors ...
             </p>
           </div>
         </div>
