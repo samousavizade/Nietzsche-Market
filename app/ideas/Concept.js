@@ -1,53 +1,53 @@
 const concepts = [
   {
     id: 1,
-    title: 'Science',
+    title: 'Will to Power',
     content:
-      'David Hume emphasized empirical evidence and observation, laying the groundwork for the scientific method.',
+      'Nietzsche proposed the "will to power" as the main driving force in humans: our intrinsic desire to reach the utmost potential and assert power over ourselves and our environment.',
   },
   {
     id: 2,
-    title: 'Biology',
+    title: 'Eternal Recurrence',
     content:
-      'Hume rarely discussed biology directly, but his ideas on naturalism have influenced thoughts on biological processes and human nature.',
+      'A central theme in Nietzsche’s philosophy, the concept of eternal recurrence is the idea that the universe and all existence and energy has been recurring, and will continue to recur, in a self-similar form an infinite number of times across infinite time or space.',
   },
   {
     id: 3,
-    title: 'Good and Evil',
+    title: 'Master-Slave Morality',
     content:
-      'Hume believed that concepts of good and evil are rooted in human emotion rather than divine command or rational deduction.',
+      'Nietzsche distinguished between two types of morality: master morality, which springs actively from the "noble man", and slave morality, which develops reactively within the weak man. These two moralities are not simple inversions of one another; they are separate and intricate.',
   },
   {
     id: 4,
-    title: 'Probability',
+    title: 'Übermensch',
     content:
-      'Hume critiqued the notion of causality, arguing that our belief in causation and hence probability is founded on habit, not logical certainty.',
+      'The Übermensch, often translated as "Superman" or "Overman", is a concept in Nietzsche’s philosophy that represents a being who has transcended the limitations of society, conventional morality, and religion.',
   },
   {
     id: 5,
-    title: 'Mind',
+    title: 'God is Dead',
     content:
-      'Hume was a proponent of the idea that the mind is a set of different perceptions without a stable self to bind them together.',
+      'Nietzsche’s assertion "God is dead" signifies the end of Christianity as the central source of moral authority. It reflects his belief in the decline of traditional religious faith and metaphysical foundations.',
   },
   {
     id: 6,
-    title: 'Self-Consciousness',
+    title: 'Nihilism',
     content:
-      'Hume suggested that self-consciousness arises from our perceptions and experiences, not from an innate self.',
+      'Nietzsche discusses nihilism extensively, which he describes as the devaluation of the highest values posited by the ascetic ideal. He sees nihilism as an outcome of repeated frustrations in the search for meaning.',
   },
   {
     id: 7,
-    title: 'Nature',
+    title: 'Aesthetics',
     content:
-      'For Hume, understanding nature is about observing patterns and regularities, which shape our expectations and beliefs.',
+      'Nietzsche believed that art is the highest form of human activity and that it justifies existence. He considered the aesthetic experience as a means of countering the nihilistic consequences of the death of God.',
   },
   {
     id: 8,
-    title: 'Death',
+    title: 'Perspectivism',
     content:
-      'Hume approached death with a calm indifference, viewing it as a natural and inevitable part of life.',
+      'Nietzsche introduced the idea of perspectivism, which posits that knowledge is always from a particular perspective and that there are no objective truths, only interpretations conditioned by various factors.',
   },
-  // Add more concepts here if needed
+  // Add more Nietzschean concepts here if needed
 ]
 
 import { useState } from 'react'

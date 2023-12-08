@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Philo Hume',
-  author: 'L',
-  headerTitle: 'Philo Hume',
+  title: 'Nietzsche Market',
+  author: 'N',
+  headerTitle: 'Nietzsche Market',
   description: 'A posts created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light

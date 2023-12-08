@@ -13,101 +13,169 @@ const QuotesContainer = ({ text, reference }) => {
 
 const quotes = [
   {
-    text: 'A wise man proportions his belief to the evidence.',
-    reference: 'An Enquiry Concerning Human Understanding, section 10, pt.1, 1748',
+    text: 'He who has a why to live for can bear almost any how.',
+    reference: 'Twilight of the Idols, "Maxims and Arrows," 1888',
   },
   {
-    text: 'There is no such thing as freedom of choice unless there is freedom to refuse.',
+    text: 'That which does not kill us makes us stronger.',
+    reference: 'Twilight of the Idols, "Maxims and Arrows," 1888',
+  },
+  {
+    text: 'God is dead. God remains dead. And we have killed him.',
+    reference: 'The Gay Science, Section 125, "The Madman," 1882',
+  },
+  {
+    text: 'Without music, life would be a mistake.',
+    reference: 'Twilight of the Idols, "Maxims and Arrows," 1888',
+  },
+  {
+    text: 'It is not a lack of love, but a lack of friendship that makes unhappy marriages.',
     reference: '',
   },
   {
-    text: 'When men are most sure and arrogant they are commonly most mistaken.',
+    text: 'In individuals, insanity is rare; but in groups, parties, nations and epochs, it is the rule.',
+    reference: 'Beyond Good and Evil, Aphorism 156, 1886',
+  },
+  {
+    text: 'To live is to suffer, to survive is to find some meaning in the suffering.',
     reference: '',
   },
   {
-    text: 'Beauty in things exists in the mind which contemplates them.',
+    text: 'There are no facts, only interpretations.',
     reference: '',
   },
   {
-    text: 'All knowledge degenerates into probability.',
-    reference: 'A Treatise of Human Nature: Top Philosophy Collections, p.144, 谷月社',
+    text: 'Whoever fights monsters should see to it that in the process he does not become a monster.',
+    reference: 'Beyond Good and Evil, Aphorism 146, 1886',
   },
   {
-    text: 'If God is omnipotent, omniscient and wholly good, whence evil? If God wills to prevent evil but cannot, then He is not omnipotent. If He can prevent evil but does not, then he is not good. In either case he is not God.',
+    text: 'The man of knowledge must be able not only to love his enemies but also to hate his friends.',
+    reference: 'Ecce Homo, "Why I Am So Wise," 1888',
+  },
+  {
+    text: 'One must still have chaos in oneself to be able to give birth to a dancing star.',
+    reference: 'Thus Spoke Zarathustra, "Prologue," 1883',
+  },
+  {
+    text: 'You must have chaos within you to give birth to a dancing star.',
+    reference: 'Thus Spoke Zarathustra, "Prologue," 1883',
+  },
+  {
+    text: 'The higher we soar the smaller we appear to those who cannot fly.',
     reference: '',
   },
   {
-    text: 'Nothing is more surprising than the easiness with which the many are governed by the few.',
+    text: 'He who fights with monsters should look to it that he himself does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you.',
+    reference: 'Beyond Good and Evil, Aphorism 146, 1886',
+  },
+  {
+    text: 'There is always some madness in love. But there is also always some reason in madness.',
+    reference: 'Thus Spoke Zarathustra, "The Reading and Writing," 1883',
+  },
+  {
+    text: 'What does not kill me, makes me stronger.',
+    reference: 'Twilight of the Idols, "Maxims and Arrows," 1888',
+  },
+  {
+    text: 'When you look into an abyss, the abyss also looks into you.',
+    reference: 'Beyond Good and Evil, Aphorism 146, 1886',
+  },
+  {
+    text: 'Art is the proper task of life.',
     reference: '',
   },
   {
-    text: 'Anything that is conceivable is possible.',
+    text: 'Do not forget that the laughter is not an evil.',
     reference: '',
   },
   {
-    text: 'To hate, to love, to think, to feel, to see; all this is nothing but to perceive.',
-    reference: 'A Treatise of Human Nature: Top Philosophy Collections, p.57, 谷月社',
-  },
-  {
-    text: 'It is seldom, that liberty of any kind is lost all at once.',
-    reference: 'Hume: Political Writings, p.253, Hackett Publishing',
-  },
-  {
-    text: 'The life of man is of no greater importance to the universe than that of an oyster.',
-    reference: 'Dialogues Concerning Natural Religion (Second Edition), p.100, Hackett Publishing',
-  },
-  {
-    text: 'Reason is, and ought only to be the slave of the passions, and can never pretend to any other office than to serve and obey them.',
-    reference: 'A Treatise upon Human Nature bk. 2, 1739',
-  },
-  {
-    text: 'Beauty is no quality in things themselves: It exists merely in the mind which contemplates them; and each mind perceives a different beauty.',
-    reference: "Essays, Moral, Political, and Literary 'Of the Standard of Taste', 1757",
-  },
-  {
-    text: 'Human happiness seems to consist in three ingredients: action, pleasure and indolence.',
-    reference:
-      'Essays and treatises on several subjects: essays, moral, political and literary, p.266, 1825',
-  },
-  {
-    text: 'Anticipation of pleasure is, in itself, a very considerable pleasure.',
-    reference: 'A Treatise of Human Nature: Illustrated, p.405, eKitap Projesi',
-  },
-  {
-    text: 'Reading and sauntering and lounging and dosing, which I call thinking, is my supreme Happiness.',
-    reference: 'Letters of David Hume to William Strahan',
-  },
-  {
-    text: 'The difference between a man who is led by opinion or emotion and one who is led by reason. The former, whether he will or not, performs things of which he is entirely ignorant; the latter is subordinate to no one, and only does those things which he knows to be of primary importance in his life, and which on that account he desires the most; and therefore I call the former a slave, but the latter free.',
+    text: 'He who would learn to fly one day must first learn to stand and walk and run and climb and dance; one cannot fly into flying.',
     reference: '',
   },
   {
-    text: 'No amount of observations of white swans can allow the inference that all swans are white, but the observation of a single black swan is sufficient to refute that conclusion.',
+    text: 'The earth has a skin and that skin has diseases; one of its diseases is called man.',
+    reference: 'Thus Spoke Zarathustra, "The Bestowing Virtue," 1883',
+  },
+  {
+    text: 'All truly great thoughts are conceived while walking.',
+    reference: 'Twilight of the Idols, "Maxims and Arrows," 1888',
+  },
+  {
+    text: 'Everything in woman is a riddle, and everything in woman hath one solution — it is called pregnancy.',
+    reference: 'Thus Spoke Zarathustra, "Of Old and Young Women," 1883',
+  },
+  // Continuing from the previous array...
+  {
+    text: 'The doer alone learneth.',
     reference: '',
   },
   {
-    text: 'The unhappy of all men is he who believes himself to be so.',
+    text: 'A good writer possesses not only his own spirit but also the spirit of his friends.',
     reference: '',
   },
   {
-    text: 'Nothing appears more surprising to those, who consider human affairs with a philosophical eye, than the easiness with which the many are governed by the few; and the implicit submission, with which men resign their own sentiments and passions to those of their rulers.',
-    reference: 'Moral and Political Philosophy, p.406, Simon and Schuster, 2010',
-  },
-  {
-    text: 'Truth springs from argument amongst friends.',
+    text: 'All things are subject to interpretation whichever interpretation prevails at a given time is a function of power and not truth.',
     reference: '',
   },
   {
-    text: 'Moving from an objective statement of fact to a subjective statement of value does not work, because it leaves open questions that have not been answered.',
+    text: "Sometimes people don't want to hear the truth because they don't want their illusions destroyed.",
     reference: '',
   },
   {
-    text: 'It is harder to avoid censure than to gain applause.',
+    text: 'We have art in order not to die of the truth.',
     reference: '',
   },
   {
-    text: 'A little philosophy makes a man an Atheist: a great deal converts him to religion.',
-    reference: 'Dialogues and Natural History of Religion, p.41, Oxford University Press, USA',
+    text: "I am not upset that you lied to me, I am upset that from now on I can't believe you.",
+    reference: '',
+  },
+  {
+    text: 'He who has a why to live can bear almost any how.',
+    reference: '',
+  },
+  {
+    text: 'The snake which cannot cast its skin has to die. As well the minds which are prevented from changing their opinions; they cease to be mind.',
+    reference: '',
+  },
+  {
+    text: 'Man is the cruelest animal.',
+    reference: 'Thus Spoke Zarathustra, "The Flies in the Market-Place," 1883',
+  },
+  {
+    text: 'In heaven, all the interesting people are missing.',
+    reference: '',
+  },
+  {
+    text: 'He who climbs upon the highest mountains laughs at all tragedies, real or imaginary.',
+    reference: '',
+  },
+  {
+    text: 'It is not a lack of love, but a lack of friendship that makes unhappy marriages.',
+    reference: '',
+  },
+  {
+    text: 'The surest way to corrupt a youth is to instruct him to hold in higher esteem those who think alike than those who think differently.',
+    reference: '',
+  },
+  {
+    text: 'There is more wisdom in your body than in your deepest philosophy.',
+    reference: '',
+  },
+  {
+    text: 'What is good? All that heightens the feeling of power, the will to power, power itself in man. What is bad? All that proceeds from weakness.',
+    reference: '',
+  },
+  {
+    text: 'The visionary lies to himself, the liar only to others.',
+    reference: '',
+  },
+  {
+    text: 'I would believe only in a God that knows how to dance.',
+    reference: 'Thus Spoke Zarathustra, "The Dancing Song," 1883',
+  },
+  {
+    text: 'In every real man a child is hidden that wants to play.',
+    reference: '',
   },
 ]
 

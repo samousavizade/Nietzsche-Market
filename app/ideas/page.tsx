@@ -15,7 +15,7 @@ const HomePage = () => {
   return (
     <div className="container mx-auto p-4">
       <h1 className="bg-gradient-to-r from-gray-700 to-blue-300 bg-clip-text text-4xl font-extrabold mb-8 text-transparent">
-        Hume's perspective to life
+        Nietzsche's perspective to life
       </h1>
       <ConceptsAccordion />
     </div>
